@@ -1,5 +1,5 @@
 {% set name = "txl-local-terminals" %}
-{% set version = "0.2.13" %}
+{% set version = "0.2.14" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/txl_local_terminals-{{ version }}.tar.gz
-  sha256: 8043c50aac55be65dcbd38a78c57902047af30e53c399d704c77fabeef1f4085
+  sha256: bf9ea9e029caeef2c2cef01be6fdadf75ea161726d5abe86137849ea4da72bef
 
 build:
   noarch: python
