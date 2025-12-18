@@ -1,6 +1,6 @@
 {% set python_min = "3.10" %}
 {% set name = "txl-local-terminals" %}
-{% set version = "0.3.6" %}
+{% set version = "0.3.8" %}
 
 package:
   name: {{ name|lower }}
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/txl_local_terminals-{{ version }}.tar.gz
-  sha256: 21c8a1817d928a1165265d59fc2124c8441498037c4b7058f87f50f88a6b6986
+  sha256: f5cb0e8404f08d58161befb777a7f74651b68e8f72076db29029e2fdfab5fffc
 
 build:
   noarch: python
